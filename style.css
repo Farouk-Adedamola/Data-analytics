@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    220deg,
+    rgba(189, 0, 255, 1) 0%,
+    rgba(0, 163, 255, 1) 100%
+  );
+  height: 100vh;
+  background-attachment: fixed;
+  font-family: "Poppins";
+}
+
+.left-col {
+  /* display: none; */
+}
+
+.left-col nav {
+  position: fixed;
+  background: #2c2931;
+  height: 100vh;
+  z-index: 1;
+  /* margin-top: 0.9rem; */
+  max-width: 300px;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+}
+
+nav ul {
+  padding: 0;
+  line-height: 2.35rem;
+  list-style: none;
+  width: 100%;
+}
+
+.back-btn {
+  transform: scaleX(1);
+  padding: 3em 4em 2em;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li a {
+  display: block; /* very important */
+  text-decoration: none;
+  color: #fff;
+  padding: 0.875em 6em 0.875em 4em;
+}
+
+.active {
+  background: #2485ff;
+}
+
+.left-col nav ul li a:hover {
+  background: #2485ff;
+}
+
+section {
+  padding: 0.75rem 1rem;
+  background: #221f26 url("./bg.jpg");
+  background-position: cover;
+  background-size: cover;
+  height: calc(100vh - 2rem);
+  margin: 0.95rem 0.9rem;
+  border-radius: 15px;
+  background-blend-mode: screen;
+  background-position: -100px;
+}
+
+header {
+  display: flex;
+  padding-top: 1rem;
+  margin: 0 2rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.1rem;
+  margin: 0 auto;
+  color: #2d7dff;
+}
+
+.menu-btn {
+  text-align: left;
+}
+
+.cv {
+  display: grid;
+  place-items: center;
+  justify-content: start;
+  padding: 2.75rem 0.9rem;
+}
+
+.content {
+  padding: 2.33rem 1.5rem;
+}
+
+.content h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.content p {
+  color: #847d93;
+  font-size: 1.9rem;
+}
+
+@media screen and (min-width: 870px) {
+  .cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    padding: 1rem 1.5rem;
+  }
+
+  .content h1 {
+    font-size: 4rem;
+  }
+
+  .content p {
+    font-size: 2.8rem;
+    font-weight: normal;
+  }
+}
+.cta {
+  display: flex;
+  justify-content: start;
+  margin: 0 auto;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.action {
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.8rem;
+  font-size: 0.825rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.action:hover {
+  background: #2485ff;
+}
+
+@media screen and (min-width: 870px) {
+  .action {
+    padding: 0.95rem 1.8rem;
+    font-weight: 800;
+  }
+}
+
+.right-arrow {
+  margin-left: 5px;
+}
