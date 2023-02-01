@@ -10,7 +10,6 @@ body {
     rgba(189, 0, 255, 1) 0%,
     rgba(0, 163, 255, 1) 100%
   );
-  /* height: 100vh; */
   background-attachment: fixed;
   font-family: "Poppins";
 }
@@ -18,9 +17,7 @@ body {
 .left-col nav {
   position: fixed;
   background: #2c2931;
-  /* height: 100vh;
-   */
-  height: calc(100vh - 2rem);
+  height: 90vh;
   z-index: 1;
   max-width: 250px;
   transform: translateX(-100%);
@@ -61,8 +58,9 @@ section {
   background: #221f26 url("./bg.jpg");
   background-position: cover;
   background-size: cover;
-  height: calc(100vh - 2rem);
-  margin: 0.95rem 0.9rem;
+  height: 90vh;
+
+  margin: 5vh 0.9rem 5vh 0.9rem;
   border-radius: 15px;
   background-blend-mode: screen;
   background-position: -100px;
@@ -139,6 +137,7 @@ header {
 
   .left-col nav {
     transform: translateX(0%);
+    height: calc(100vh - 2rem);
   }
 
   .menu-btn {
@@ -151,6 +150,11 @@ header {
 
   .left-col nav {
     display: block;
+  }
+
+  section {
+    height: calc(100vh - 2rem);
+    margin: 0.95rem 0.9rem;
   }
 }
 .cta {
