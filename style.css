@@ -54,10 +54,6 @@ nav ul li a {
   background: #2485ff;
 }
 
-/* .left-col nav ul li a:first-child:hover {
-  background: #2485ff;
-} */
-
 section {
   padding: 0.75rem 1rem;
   background: #221f26 url("./bg.jpg");
@@ -124,7 +120,7 @@ header {
     align-items: center;
   }
   .content {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem 0 3.5rem;
   }
 
   .content h1 {
@@ -173,8 +169,4 @@ header {
   font-size: 0.825rem;
   font-weight: 800;
   text-transform: uppercase;
-}
-
-.action:hover {
-  /* background: #2485ff; */
 }
