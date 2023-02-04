@@ -71,6 +71,9 @@ section {
   .section {
     height: 80vh;
   }
+  .left-col nav {
+    height: 80vh;
+  }
 }
 
 header {
