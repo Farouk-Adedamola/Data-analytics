@@ -67,6 +67,12 @@ section {
   background-position: -100px;
 }
 
+@media screen and (max-width: 450px) {
+  .section {
+    height: 80vh;
+  }
+}
+
 header {
   display: flex;
   padding-top: 1rem;
