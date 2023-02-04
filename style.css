@@ -12,12 +12,13 @@ body {
   );
   background-attachment: fixed;
   font-family: "Poppins";
+  height: 100dvh;
 }
 
 .left-col nav {
   position: fixed;
   background: #2c2931;
-  height: 90vh;
+  height: 90dvh;
   z-index: 1;
   max-width: 250px;
   transform: translateX(-100%);
