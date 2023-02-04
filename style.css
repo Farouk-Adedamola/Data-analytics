@@ -12,7 +12,6 @@ body {
   );
   background-attachment: fixed;
   font-family: "Poppins";
-  height: 100dvh;
 }
 
 .left-col nav {
@@ -60,7 +59,6 @@ section {
   background-position: cover;
   background-size: cover;
   height: 90vh;
-
   margin: 5vh 0.9rem 5vh 0.9rem;
   border-radius: 15px;
   background-blend-mode: screen;
